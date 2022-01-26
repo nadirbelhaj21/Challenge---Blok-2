@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nadir Belhaj</title>
+  </head>
+
+  <body>
+    <img class="mijnAfbeelding" src="images/logo.png">
+    <script src="script.js"></script>
+    <header>
+      <a href='#' class="logo">logo</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pagina's/projecten.html">projecten</a></li>
+          <li><a href="pagina's/modules.html">modules</a></li>
+          <li><a href="overmij.html">over mij</a></li>
+            </ul>
+      </nav>
+    </header>
+
+    <h1 class="sec">over mij</h1>
+    <div>
+<p class="paragraaf">mijn naam is Nadir, 16 jaar oud mijn hobby is calisthenics. Ik woon samen met mijn ouders, zus, broer en een huisdier.<br> Mijn intresses liggen bij geld maken en een gezonde leefstijl. <br>Zoals iedereen heb ik zwakke punten en sterke punten, mijn zwakke punten zijn planning maken en aan mijn eigen afspraken houden. <br>Mijn sterke punten zijn gemotiveerd blijven en doorzetten hoe dan ook. </p>
+    </div>
+    <button>achtergrond veranderen</button>
+    <script type="text/javascript">
+        var color=["#800000", "#222f3e", "5f27cd"];
+        var i= 0;
+        document.querySelector("button").addEventListener("click", function()
+        {i= i < color.length ? ++i :0;
+            document.querySelector("body").style.background = color[i]
+        })
+    </script>
+  </body>
+</html>

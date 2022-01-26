@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/script.js"></script>
+    <title>Nadir Belhaj</title>
+</head>
+<body>
+    <img class="mijnAfbeelding" src="images/logo.png">
+    <header>
+            <a href='#' class="logo">logo</a>
+
+        <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pagina's/projecten.html">projecten</a></li>
+            <li><a href="pagina's/modules.html">modules</a></li>
+            <li><a href="overmij.html">over mij</a></li>
+        </ul>
+        </nav>
+        </header>
+        <h1 class="sec">Home</h1>
+        <div>
+           
+    <p class="paragraaf">Mijn naam is Nadir, ik kan het uiterlijk van het element wijzigen,<br> zoals grootte, lettertype, marge, kleur, opvulling <br>en algemene stijlwijzigingen die niet zijn opgenomen in het WordPress-thema-optiepaneel <br>of op gewone HTML CSS-gebaseerde webpagina's!
+
+        Ik kan ook relevante wijzigingen aanbrengen in de HTML van de pagina!
+        
+        Bedankt voor het lezen :)</p>
+        
+        </div>
+        <button>achtergrond veranderen</button>
+        <script type="text/javascript">
+            var color=["#800000", "	#800080", "5f27cd"];
+            var i= 0;
+            document.querySelector("button").addEventListener("click", function()
+            {i= i < color.length ? ++i :0;
+                document.querySelector("body").style.background = color[i]
+            })
+        </script>
+        
+     
+</body>
+    
+</html>
